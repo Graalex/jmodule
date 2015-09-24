@@ -1,2 +1,2 @@
 # jmodule
-Template for creating a new Ощщьдф module
+Template for creating a new Joomla module

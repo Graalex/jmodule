@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 ?>
 
-<div class="name<?php echo $moduleclass_sfx; ?>">
+<div class="jmodule<?php echo $moduleclass_sfx; ?>">
 	<!--
 		Insert your code ...
 	-->

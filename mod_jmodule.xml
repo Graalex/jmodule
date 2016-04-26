@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_jmodule</name>
+	<author>Grigorchuk Aleksandr</author>
+	<creationDate>September 2015</creationDate>
+	<copyright>Copyright (C) 2015 Grigorchuk Aleksandr. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>aleksandr.grigorchu@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_JMODULE_DESCRIPTION</description>
+	<files>
+		<filename module="mod_jmodule">mod_jmodule.php</filename>
+		<filename>helper.php</filename>
+		<filename>mod_jmodule.xml</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_jmodule.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_jmodule.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.mod_jmodule.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.mod_jmodule.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="field1"
+					   type="text"
+					   label="MOD_JMODULE_FIELD1_LABEL"
+					   description="MOD_JMODULE_FIELD1_DESCRIPTION"
+					   default="jmodule"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -10,23 +10,23 @@
 defined('_JEXEC') or die;
 
 /**
- * Helper for mod_name
+ * Helper for jmodule
  *
  * @package     Joomla.Module Template
  * @subpackage  mod_name
  *
- * @since       3.0
+ * @since       3.1
  */
-abstract class ModNameHelper
+abstract class ModJModuleHelper
 {
 	/**
 	 * Get a list of object
 	 *
-	 * @param   \Joomla\Registry\Registry  &$params  object holding the models parameters
+	 * @param   \Joomla\Registry\Registry  &$params  объект содержащий параметры модуля
 	 *
 	 * @return  mixed
 	 *
-	 * @since 3.0
+	 * @since 3.1
 	 */
 	public static function getList(&$params)
 	{

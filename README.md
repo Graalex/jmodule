@@ -7,7 +7,7 @@
 
 ##Установка
 Клонируйте репозитарий в свою локальную директорию
-    git clone https://github.com/Graalex/jmodule.git
+    `git clone https://github.com/Graalex/jmodule.git`
 
 ##Использование
 Замените все вхождения jmodule названием собственного модуля.

@@ -1,10 +1,11 @@
 <?php
 /**
- * @package     Joomla.Module.Template
- * @subpackage  mod_name
+ * @package     Joomla.Module
+ * @subpackage  mod_jmodule
  *
- * @copyright   Copyright (C) 2015 Grigorchuk Aleksandr. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright   Copyright (C) 2015 Grigorchuk Aleksandr
+ * @license     MIT License; see LICENSE
+ * @since       3.1
  */
 
 defined('_JEXEC') or die;
@@ -12,6 +13,6 @@ defined('_JEXEC') or die;
 
 <div class="jmodule<?php echo $moduleclass_sfx; ?>">
 	<!--
-		Insert your code ...
+		Вставте ваш код ...
 	-->
 </div>

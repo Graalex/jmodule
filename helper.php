@@ -1,26 +1,22 @@
 <?php
 /**
- * @package     Joomla.Module.Template
- * @subpackage  mod_name
+ * @package     Joomla.Module
+ * @subpackage  mod_jmodule
  *
- * @copyright   Copyright (C) 2015 Grigorchuk Aleksandr. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright   Copyright (C) 2015 Grigorchuk Aleksandr.
+ * @license     MIT License; see LICENSE
+ * @since       3.1
  */
 
 defined('_JEXEC') or die;
 
 /**
- * Helper for jmodule
- *
- * @package     Joomla.Module Template
- * @subpackage  mod_name
- *
- * @since       3.1
+ * Вспомогательный класс для модуля
  */
 abstract class ModJModuleHelper
 {
 	/**
-	 * Get a list of object
+	 * Получить список объектов
 	 *
 	 * @param   \Joomla\Registry\Registry  &$params  объект содержащий параметры модуля
 	 *
@@ -31,7 +27,7 @@ abstract class ModJModuleHelper
 	public static function getList(&$params)
 	{
 		$app = JFactory::getApplication();
-		//TODO: Include your code ...
+		// Добавте свой код ...
 		
 		$items = null;
 		return $items;

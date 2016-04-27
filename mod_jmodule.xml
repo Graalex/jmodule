@@ -3,8 +3,8 @@
 	<name>MOD_JMODULE_NAME</name>
 	<author>Grigorchuk Aleksandr</author>
 	<creationDate>September 2015</creationDate>
-	<copyright>Copyright (C) 2015 Grigorchuk Aleksandr. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<copyright>Copyright (C) 2015 Grigorchuk Aleksandr.</copyright>
+	<license>MIT License; see LICENSE</license>
 	<authorEmail>aleksandr.grigorchu@gmail.com</authorEmail>
 	<authorUrl></authorUrl>
 	<version>1.0.0</version>

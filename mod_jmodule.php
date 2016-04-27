@@ -1,9 +1,10 @@
 <?php
 /**
- * @package     Joomla.Module.Template
- * @subpackage  JModule
+ * @package     Joomla.Module
+ * @subpackage  mod_jmodule
  * @copyright   2015 (c) Grigorchuk Aleksandr
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @license     MIT License; see LICENSE
+ * @since       3.1
 */
 
 defined('_JEXEC') or die;

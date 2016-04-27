@@ -1,8 +1,26 @@
 # jmodule
-Template for creating a new Joomla module
+Шаблон кода для быстрого старта разработки модуля Joomla
 
-##Files and directories.
-1. mod_name.xml -- metadata module;
-2. mod_name.php -- general code module;
-3. helper.php -- work code module;
-4. tmpl/default.php -- default template display module.
+##Описание
+Данный проект содержит минимально необходимый набор файлов для начала разработки собственного
+модуля CMS Joomla версии 3.1 и выше.
+
+##Установка
+Клонируйте репозитарий в свою локальную директорию
+        git clone https://github.com/Graalex/jmodule.git
+
+##Использование
+Замените все вхождения jmodule названием собственного модуля.
+Более подробную информацию о разработке модулей на сайте [Joomla.](https://docs.joomla.org/Portal:Module_Development/ru)
+
+##Структура Файлов и каталогов.
+1.  mod_jmodule.xml - файл метаданных для модуля;
+2.  mod_jmodule.php - точка входа для модуля;
+3.  helper.php - вспомогательный класс/классы для задач модуля (необязательно);
+4.  language/en-GB/en-GB.mod_jmodule.ini - языковый файл для английского (необязятельно);
+5.  language/en-GB/en-GB.mod_jmodule.sys.ini - системный языковый файл для английского (необязятельно);
+6.  language/ru-RU/ru-RU.mod_jmodule.ini - языковый файл для русского (необязятельно);
+7.  language/ru-RU/ru-RU.mod_jmodule.sys.ini - системный языковый файл для русского (необязятельно);
+8.  language/uk-UA/uk-UA.mod_jmodule.ini - языковый файл для украинского (необязятельно);
+9.  language/uk-UA/uk-UA.mod_jmodule.sys.ini - системный языковый файл для украинского (необязятельно);
+10.  tmpl/default.php - шаблон вида по умолчанию для модуля.
